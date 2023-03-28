@@ -1641,9 +1641,7 @@ body{
 
     .card{
         
-      
 
-   
       
         img{
             max-width: 30rem;
@@ -1793,6 +1791,7 @@ body{
         display: flex;
         flex-direction: column;
         justify-content: center;
+        margin: 0 auto;
         .card-footer1{
             display: flex;
             margin: auto;
@@ -1824,6 +1823,20 @@ body{
 
 
 @media(max-width:960px){
+    .header{
+       max-width: 100%;
+       
+        .divisao1{
+        
+        }
+        .logo{
+            margin-left: -3rem;
+            
+        }
+        .menu{
+          margin-left: 14rem;
+        }
+    }
     .recurso{
         display: flex;
         flex-direction: column;
@@ -1853,11 +1866,15 @@ body{
     }
 
     .blog-recurso{
-   
+       a{
+       display: block;
+       }
       .card{
         display: flex;
         flex-direction: column;
         justify-content: center;
+        
+      
         img{
             max-width: max-content;
             padding: 0 1rem 0 1rem;
@@ -2046,6 +2063,12 @@ body{
     }
 
     .card-footer{
+
+    
+   
+        
+  
+    
       .card-footer1{
         display: flex;
         flex-direction: column;
@@ -2057,6 +2080,7 @@ body{
         flex-direction: row;
         justify-content: center;
         align-items: center;
+        max-width: min-content;
       }
 
       .card-contato-footer{
@@ -2070,6 +2094,13 @@ body{
             justify-content: center;
             align-items: center;
         }
+      }
+
+      .card-footer3{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
       }
     }
 

@@ -1,5 +1,6 @@
 html {
   font-size: 62.5%;
+  
 }
 
 body {
@@ -16,6 +17,7 @@ body {
   align-items: center;
   margin: 0 4.7rem 0 4.7rem;
   max-width: 1400rem;
+  background-color: #00000054;
 }
 .header .divisao1 {
   display: flex;

@@ -1101,6 +1101,7 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    margin: 0 auto;
   }
   .card-footer .card-footer1 {
     display: flex;
@@ -1123,6 +1124,15 @@ body {
   }
 }
 @media (max-width: 960px) {
+  .header {
+    max-width: 100%;
+  }
+  .header .logo {
+    margin-left: -3rem;
+  }
+  .header .menu {
+    margin-left: 14rem;
+  }
   .recurso {
     display: flex;
     flex-direction: column;
@@ -1143,6 +1153,9 @@ body {
   }
   .busca-blog input {
     max-width: min-content;
+  }
+  .blog-recurso a {
+    display: block;
   }
   .blog-recurso .card {
     display: flex;
@@ -1300,6 +1313,7 @@ body {
     flex-direction: row;
     justify-content: center;
     align-items: center;
+    max-width: min-content;
   }
   .card-footer .card-contato-footer {
     display: flex;
@@ -1308,6 +1322,12 @@ body {
     align-items: center;
   }
   .card-footer .card-contato-footer div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .card-footer .card-footer3 {
     display: flex;
     flex-direction: column;
     justify-content: center;
