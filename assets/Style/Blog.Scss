@@ -1824,7 +1824,8 @@ body{
 
 @media(max-width:960px){
     .header{
-       max-width: 100%;
+      
+        max-width: 140rem;
        
         .divisao1{
         
@@ -1834,7 +1835,8 @@ body{
             
         }
         .menu{
-          margin-left: 19rem;
+          margin-right: -6rem;
+          max-width: max-content;
         }
     }
     .recurso{
@@ -1856,22 +1858,25 @@ body{
     .busca-blog{
       max-width: min-content;
       margin: 10rem 1rem 10rem 1rem;
+      display: flex;
+      flex-direction: column;
+   
       
       input{
-        max-width: 23rem;
-        margin-right: 7rem;
+        max-width: 20rem;
+        margin-right: 9rem;
         
 
        
       }
       button{
-        max-width: 7rem;
-        text-align: center;
+        max-width: 2rem;
         display: flex;
-        flex-direction: row;
-        align-items: center;
         justify-content: center;
-        
+        font-size: 1.2rem;
+        align-items: center;
+        border: none;
+
       }
 
 
@@ -1933,6 +1938,16 @@ body{
     
         display: flex;
         flex-direction: column;
+
+        .btn{
+
+            p{
+                margin-left: -5rem;
+                font-size: 1rem !important;
+                
+                max-width: 10rem !important;
+            }
+        }
        
         
         .artigo1{
@@ -1954,6 +1969,8 @@ body{
                   .btn{
                     display: flex;
                     gap: 15rem;
+
+
                   }
                
             }
@@ -2141,10 +2158,12 @@ body{
 
             .ul-footer{
                 margin-top: 8rem;
+                margin-left: 7rem !important;
             }
 
             .anuncio{
                 margin-top: 30rem;
+                
             }
         }
     }
@@ -2153,6 +2172,7 @@ body{
 
 
 @media(max-width:520px){
+    
     
 
     .recurso{

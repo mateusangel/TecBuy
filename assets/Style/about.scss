@@ -1588,23 +1588,174 @@ body{
             margin-left: 8rem;
         }
     }
+
+
+    .quest1{
+        h1{
+            display: none;
+        }
+    }
+    .quest2{
+        h1{
+            display: none;
+        }
+    }
+    .quest3{
+        h1{
+            display: none;
+        }
+    }
+    .quest4{
+        h1{
+            display: none;
+        }
+    }
+    .quest5{
+        h1{
+            display: none;
+        }
+    }
+    .quest6{
+        h1{
+            display: none;
+        }
+    }
+    // .card-footer{
+    //    gap: 10rem;
+        
+    //     display: flex;
+    //     flex-direction: column;
+    //     justify-content: center;
+    //     align-items: center;
+       
+    //     .card-footer2{
+    //         margin-top: -10rem;
+    //        margin-bottom: -10rem;
+          
+            
+    //         .assets-mochila{
+    //             display: flex ;
+    //             flex-direction: column;
+                
+    //         }
+    //     }
+
+    //     .card-footer3{
+    //         margin: 0 3rem 0 3rem;
+          
+
+    //         h1{
+    //             font-size: 3rem !important;
+              
+    //         }
+    //         .anuncio{
+    //             display: none;
+    //         }
+    //     }
+
+    //     .menu-footer{
+    //         p{
+    //             font-size: 1.8rem !important;
+    //         }
+    //     }
+
+    //     .ul-footer{
+    //         margin: 0 1rem 0 1rem;
+         
+    //         p{
+    //             font-size: 1.8rem !important;
+    //             max-width: max-content;
+            
+    //         }
+    //     }
+    // }
+
     .card-footer{
-       gap: 10rem;
         
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
+        margin: auto;
+
+        .card-footer1{
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                margin-bottom: 10rem;
+
+                .anuncio{
+                   
+                    p{
+                        font-size: 1.5rem !important;
+                        text-align: center;
+                      
+                    }
+                }
+                .card-tel-footer{
+                    h2{
+                        font-size: 1.9rem;
+                    }
+                    p{
+                        font-size: 1.9rem !important;
+                       
+                    }
+                   
+                }
+
+                .email-footer{
+                    font-size: 1.9rem !important;
+                    &::before{
+                        content: '';
+                        display: none;
+                    }
+                }
+                .meuEmail{
+                    font-size: 1.9rem !important;
+                }
+
+                .tel{
+                    &::before{
+                        content: '';
+                        display: none;
+                    }
+                }
+        }
+
+
+        .card-contato-footer{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        
+          
+        }
        
+       .card-logo-footer{
+        max-width: min-content;
+        
+       }
         .card-footer2{
             margin-top: -10rem;
            margin-bottom: -10rem;
-          
+           margin-bottom: 5rem;
+     
+           
             
             .assets-mochila{
                 display: flex ;
                 flex-direction: column;
-                
+            }
+
+            .anuncio{
+                p{
+                    font-size: 1.5rem !important;
+                    text-align: center;
+                    margin-top: 10rem;
+                  
+                }
             }
         }
 
@@ -1618,6 +1769,10 @@ body{
             }
             .anuncio{
                 display: none;
+                p{
+                    font-size: 1rem !important;
+                   
+                }
             }
         }
 
@@ -1628,7 +1783,7 @@ body{
         }
 
         .ul-footer{
-            margin: 0 1rem 0 1rem;
+            margin: 0 3rem 0 3rem;
          
             p{
                 font-size: 1.8rem !important;
@@ -1637,4 +1792,6 @@ body{
             }
         }
     }
+
+   
 }

@@ -993,20 +993,84 @@ body {
   .header .menu {
     margin-left: 8rem;
   }
+  .quest1 h1 {
+    display: none;
+  }
+  .quest2 h1 {
+    display: none;
+  }
+  .quest3 h1 {
+    display: none;
+  }
+  .quest4 h1 {
+    display: none;
+  }
+  .quest5 h1 {
+    display: none;
+  }
+  .quest6 h1 {
+    display: none;
+  }
   .card-footer {
-    gap: 10rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+  }
+  .card-footer .card-footer1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10rem;
+  }
+  .card-footer .card-footer1 .anuncio p {
+    font-size: 1.5rem !important;
+    text-align: center;
+  }
+  .card-footer .card-footer1 .card-tel-footer h2 {
+    font-size: 1.9rem;
+  }
+  .card-footer .card-footer1 .card-tel-footer p {
+    font-size: 1.9rem !important;
+  }
+  .card-footer .card-footer1 .email-footer {
+    font-size: 1.9rem !important;
+  }
+  .card-footer .card-footer1 .email-footer::before {
+    content: "";
+    display: none;
+  }
+  .card-footer .card-footer1 .meuEmail {
+    font-size: 1.9rem !important;
+  }
+  .card-footer .card-footer1 .tel::before {
+    content: "";
+    display: none;
+  }
+  .card-footer .card-contato-footer {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
   }
+  .card-footer .card-logo-footer {
+    max-width: min-content;
+  }
   .card-footer .card-footer2 {
     margin-top: -10rem;
     margin-bottom: -10rem;
+    margin-bottom: 5rem;
   }
   .card-footer .card-footer2 .assets-mochila {
     display: flex;
     flex-direction: column;
+  }
+  .card-footer .card-footer2 .anuncio p {
+    font-size: 1.5rem !important;
+    text-align: center;
+    margin-top: 10rem;
   }
   .card-footer .card-footer3 {
     margin: 0 3rem 0 3rem;
@@ -1017,11 +1081,14 @@ body {
   .card-footer .card-footer3 .anuncio {
     display: none;
   }
+  .card-footer .card-footer3 .anuncio p {
+    font-size: 1rem !important;
+  }
   .card-footer .menu-footer p {
     font-size: 1.8rem !important;
   }
   .card-footer .ul-footer {
-    margin: 0 1rem 0 1rem;
+    margin: 0 3rem 0 3rem;
   }
   .card-footer .ul-footer p {
     font-size: 1.8rem !important;
