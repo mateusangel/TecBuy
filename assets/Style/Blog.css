@@ -120,10 +120,14 @@ body {
   border: 1px solid;
 }
 .header .menu .menu2 {
-  width: 2rem;
+  width: 3rem;
   background-color: black;
   border: 1px solid;
-  margin-left: 1rem;
+}
+.header .menu .menu3 {
+  width: 3rem;
+  background-color: black;
+  border: 1px solid;
 }
 .header .card-shop {
   cursor: pointer;
@@ -1302,36 +1306,30 @@ body {
     max-width: 50rem;
     height: max-content;
   }
+  .card-footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0 auto;
+  }
   .card-footer .card-footer1 {
     display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    margin: auto;
   }
-  .card-footer .card-logo-footer {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    max-width: min-content;
-  }
-  .card-footer .card-contato-footer {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-  }
-  .card-footer .card-contato-footer div {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+  .card-footer .card-footer2 {
+    margin: auto;
   }
   .card-footer .card-footer3 {
     display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 0 3rem 0 3rem;
+  }
+  .card-footer .card-footer3 .ul-footer {
+    margin-top: 8rem;
+  }
+  .card-footer .card-footer3 .anuncio {
+    margin-top: 30rem;
   }
 }
 @media (max-width: 520px) {
@@ -1365,6 +1363,12 @@ body {
     justify-content: center;
     align-items: center;
   }
+  .card-footer .card-contato-footer {
+    margin: auto;
+  }
+  .card-footer .card-logo-footer {
+    max-width: min-content;
+  }
   .card-footer .card-footer2 {
     margin-top: -10rem;
     margin-bottom: -10rem;
@@ -1377,7 +1381,7 @@ body {
     margin: 0 3rem 0 3rem;
   }
   .card-footer .card-footer3 h1 {
-    font-size: 4rem !important;
+    font-size: 3rem !important;
   }
   .card-footer .card-footer3 .anuncio {
     display: none;

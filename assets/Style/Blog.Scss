@@ -204,16 +204,16 @@ body{
             border: 1px solid;
         }
         .menu2{
-            width: 2rem;
+            width: 3rem;
             background-color: black;
             border: 1px solid;
-           margin-left: 1rem;
+          
         }
-        // .menu3{
-        //     width: 3rem;
-        //     background-color: black;
-        //     border: 1px solid;
-        // }
+        .menu3{
+            width: 3rem;
+            background-color: black;
+            border: 1px solid;
+        }
     }
 
     .card-shop{
@@ -2062,53 +2062,86 @@ body{
 
     }
 
-    .card-footer{
+    // .card-footer{
 
     
    
         
   
     
-      .card-footer1{
+    //   .card-footer1{
+    //     display: flex;
+    //     flex-direction: column;
+    //     justify-content: center;
+    //     align-items: center;
+    //   }
+    //   .card-logo-footer{
+    //     display: flex;
+    //     flex-direction: row;
+    //     justify-content: center;
+    //     align-items: center;
+    //     max-width: min-content;
+    //   }
+
+    //   .card-contato-footer{
+    //     display: flex;
+    //     flex-direction: row;
+    //     justify-content: center;
+    //     align-items: center;
+    //     div{
+    //         display: flex;
+    //         flex-direction: column;
+    //         justify-content: center;
+    //         align-items: center;
+    //     }
+    //   }
+
+    //   .card-footer3{
+    //     display: flex;
+    //     flex-direction: column;
+    //     justify-content: center;
+    //     align-items: center;
+    //   }
+    // }
+
+    .card-footer{
         display: flex;
         flex-direction: column;
         justify-content: center;
-        align-items: center;
-      }
-      .card-logo-footer{
-        display: flex;
-        flex-direction: row;
-        justify-content: center;
-        align-items: center;
-        max-width: min-content;
-      }
-
-      .card-contato-footer{
-        display: flex;
-        flex-direction: row;
-        justify-content: center;
-        align-items: center;
-        div{
+        margin: 0 auto;
+        .card-footer1{
             display: flex;
-            flex-direction: column;
-            justify-content: center;
-            align-items: center;
+            margin: auto;
+           
         }
-      }
+        .card-footer2{
+            margin: auto;
+          
+         
+        }
 
-      .card-footer3{
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-      }
+        .card-footer3{
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+    
+            margin: 0 3rem 0 3rem;
+
+            .ul-footer{
+                margin-top: 8rem;
+            }
+
+            .anuncio{
+                margin-top: 30rem;
+            }
+        }
     }
 
 }
 
 
 @media(max-width:520px){
-
+    
 
     .recurso{
        p{
@@ -2126,6 +2159,7 @@ body{
             }
             h2{
                font-size: 2rem;
+              
             }
         }
 
@@ -2159,14 +2193,28 @@ body{
 
     }
     .card-footer{
+    
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
+
+
+        .card-contato-footer{
+            margin: auto;
+        
+          
+        }
        
+       .card-logo-footer{
+        max-width: min-content;
+        
+       }
         .card-footer2{
             margin-top: -10rem;
            margin-bottom: -10rem;
+     
+           
             
             .assets-mochila{
                 display: flex ;
@@ -2179,7 +2227,7 @@ body{
           
 
             h1{
-                font-size: 4rem !important;
+                font-size: 3rem !important;
               
             }
             .anuncio{
