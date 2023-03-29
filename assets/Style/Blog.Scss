@@ -111,6 +111,7 @@ body{
             border-style: none;
             padding: 0 1rem 0 1rem;
             background: #d1cece00;
+
           
 
          
@@ -177,9 +178,104 @@ body{
 
     }
 
-    .menu-mob{
-       display: none;
+   
+    .lista{
+        width: 90vw;
+        height: 100vh;
+
+     
+       
+        background: #d1ceced2;
+
+        border-radius: 30px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        list-style: none;
+        gap: 2rem;
+        font-size: 4rem;
+
+        margin: auto;
+    
+
+        bottom: 15rem;
+   
+
+      
+       top: 0;
+        left:3%;
+       overflow: hidden;
+
+         position: fixed;
+
+        font-weight: 500;
+        font-family: 'Montserrat';
+       
+        align-items: center;
+
+        cursor: pointer;
+
+
+        visibility: hidden;
+
+        a{
+            text-decoration: none;
+            color: #000000;
+        }
+     
     }
+
+    .l1 > a:hover{
+        color: white;
+    }
+    .l2 > a:hover{
+        color: white;
+    }
+    .l3 > a:hover{
+        color: white;
+    }
+
+
+    // interacao
+
+
+    
+ .active1{
+    transform: rotate(45deg) translate(1px ,7px );
+
+    transition:  0.5s;
+
+
+
+}
+.active2{
+  opacity: 0;
+}
+
+
+.active3{
+    transform: rotate(-45deg) translate(3px ,-10px );
+   transition: 0.5s;
+
+
+
+
+  
+  
+}
+
+.active4{
+    visibility: visible;
+    transform: translatey(90px) ;
+    transition: 1s;
+  
+  
+ 
+
+
+}
 
 
     .menu{
@@ -188,6 +284,8 @@ body{
         gap: 6px;
         margin-top: -1px;
         cursor: pointer;
+
+        z-index: 9999;
        
         
         
@@ -1372,7 +1470,11 @@ body{
 
 // Responsivo
 
+
+
 @media(max-width:1300px){
+
+   
     .blog-recurso{
         // display: flex;
         // flex-direction: column;
@@ -1598,7 +1700,10 @@ body{
 }
 
 @media(max-width:1111px){
+
+
     header{
+
         #of{
             display: none;
         }
