@@ -1834,7 +1834,7 @@ body{
             
         }
         .menu{
-          margin-left: 14rem;
+          margin-left: 19rem;
         }
     }
     .recurso{
@@ -1856,10 +1856,22 @@ body{
     .busca-blog{
       max-width: min-content;
       margin: 10rem 1rem 10rem 1rem;
+      
       input{
-        max-width: min-content;
+        max-width: 23rem;
+        margin-right: 7rem;
+        
 
        
+      }
+      button{
+        max-width: 7rem;
+        text-align: center;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        
       }
 
 
@@ -2186,9 +2198,17 @@ body{
        img{
             width: 20rem;
        }
+       
 
        h1{
-        font-size: 3rem;
+        font-size: 2.5rem !important;
+       }
+
+       .btn{
+        p{
+            font-size: 1.2rem;
+          
+        }
        }
 
     }
@@ -2198,10 +2218,58 @@ body{
         flex-direction: column;
         justify-content: center;
         align-items: center;
+        margin: auto;
+
+        .card-footer1{
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+
+                .anuncio{
+                   
+                    p{
+                        font-size: 1.5rem !important;
+                        text-align: center;
+                      
+                    }
+                }
+                .card-tel-footer{
+                    h2{
+                        font-size: 1.9rem;
+                    }
+                    p{
+                        font-size: 1.9rem !important;
+                       
+                    }
+                   
+                }
+
+                .email-footer{
+                    font-size: 1.9rem !important;
+                    &::before{
+                        content: '';
+                        display: none;
+                    }
+                }
+                .meuEmail{
+                    font-size: 1.9rem !important;
+                }
+
+                .tel{
+                    &::before{
+                        content: '';
+                        display: none;
+                    }
+                }
+        }
 
 
         .card-contato-footer{
-            margin: auto;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
         
           
         }
@@ -2220,6 +2288,15 @@ body{
                 display: flex ;
                 flex-direction: column;
             }
+
+            .anuncio{
+                p{
+                    font-size: 1.5rem !important;
+                    text-align: center;
+                    margin-top: 10rem;
+                  
+                }
+            }
         }
 
         .card-footer3{
@@ -2232,6 +2309,10 @@ body{
             }
             .anuncio{
                 display: none;
+                p{
+                    font-size: 1rem !important;
+                   
+                }
             }
         }
 

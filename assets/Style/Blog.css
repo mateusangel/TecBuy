@@ -1135,7 +1135,7 @@ body {
     margin-left: -3rem;
   }
   .header .menu {
-    margin-left: 14rem;
+    margin-left: 19rem;
   }
   .recurso {
     display: flex;
@@ -1156,7 +1156,16 @@ body {
     margin: 10rem 1rem 10rem 1rem;
   }
   .busca-blog input {
-    max-width: min-content;
+    max-width: 23rem;
+    margin-right: 7rem;
+  }
+  .busca-blog button {
+    max-width: 7rem;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
   }
   .blog-recurso a {
     display: block;
@@ -1355,16 +1364,53 @@ body {
     width: 20rem;
   }
   .card-artigo h1 {
-    font-size: 3rem;
+    font-size: 2.5rem !important;
+  }
+  .card-artigo .btn p {
+    font-size: 1.2rem;
   }
   .card-footer {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    margin: auto;
+  }
+  .card-footer .card-footer1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .card-footer .card-footer1 .anuncio p {
+    font-size: 1.5rem !important;
+    text-align: center;
+  }
+  .card-footer .card-footer1 .card-tel-footer h2 {
+    font-size: 1.9rem;
+  }
+  .card-footer .card-footer1 .card-tel-footer p {
+    font-size: 1.9rem !important;
+  }
+  .card-footer .card-footer1 .email-footer {
+    font-size: 1.9rem !important;
+  }
+  .card-footer .card-footer1 .email-footer::before {
+    content: "";
+    display: none;
+  }
+  .card-footer .card-footer1 .meuEmail {
+    font-size: 1.9rem !important;
+  }
+  .card-footer .card-footer1 .tel::before {
+    content: "";
+    display: none;
   }
   .card-footer .card-contato-footer {
-    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
   }
   .card-footer .card-logo-footer {
     max-width: min-content;
@@ -1377,6 +1423,11 @@ body {
     display: flex;
     flex-direction: column;
   }
+  .card-footer .card-footer2 .anuncio p {
+    font-size: 1.5rem !important;
+    text-align: center;
+    margin-top: 10rem;
+  }
   .card-footer .card-footer3 {
     margin: 0 3rem 0 3rem;
   }
@@ -1385,6 +1436,9 @@ body {
   }
   .card-footer .card-footer3 .anuncio {
     display: none;
+  }
+  .card-footer .card-footer3 .anuncio p {
+    font-size: 1rem !important;
   }
   .card-footer .menu-footer p {
     font-size: 1.8rem !important;
