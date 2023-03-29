@@ -842,7 +842,7 @@ body{
     justify-content: center;
     
 
-    gap: 5rem;
+    gap: 2rem;
     margin-top: 10rem;
 
 
@@ -1225,7 +1225,8 @@ body{
 
     .sobre{
 
-        margin-left: 10rem;
+        margin: auto;
+         /*l*/
        
 
         h1{
@@ -1239,7 +1240,7 @@ body{
             
     
             height: 49px;
-            width: 551px;
+            max-width: 551px;
             left: 244px;
             top: 4638px;
          
@@ -2325,3 +2326,866 @@ body{
 
 }
 
+
+@media(max-width:1109px){
+
+    .header{
+        max-width: 140rem;
+        .search{
+            display: none;
+        }
+
+        .address{
+            display: none;
+        }
+        .divisao2{
+            margin-right:8rem !important;
+            .user{
+            display: none;
+            
+            }
+            .card-shop{
+              
+               display: none;
+            }
+        }
+
+        .menu{
+            margin-right: -10rem;
+        }
+    }
+    .card{
+        div {
+           margin: 0 2rem 0 2rem;
+           h1{
+            font-size: 6rem;
+           }
+
+           p{
+            font-size: 2rem;
+           }
+
+        }
+        .btn-one{
+            max-width: 15rem;
+        }
+        .btn-two{
+            max-width: 15rem;
+        }
+    }
+
+    img{
+        max-width: 50rem !important;
+
+
+    }
+
+    .category{
+       .card-one{
+        max-width: 40rem;
+        img{
+            max-width: 25rem !important;
+        }
+       }
+       .card-two{
+        max-width: 40rem;
+        img{
+            max-width: 25rem !important;
+        }
+       }
+       .card-three{
+        max-width: 40rem;
+        img{
+            max-width: 25rem !important;
+        }
+       }
+       .card-th{
+        max-width: 40rem;
+        img{
+            max-width: 25rem !important;
+        }
+       }
+       .card-four{
+        max-width: 40rem;
+        img{
+            max-width: 25rem !important;
+        }
+       }
+
+    }
+
+    .tecs{
+       display: grid;
+       grid-template-columns: 2fr 1fr;
+       grid-template-areas: "a1 a2";
+       justify-content: center;
+       align-items: center;
+
+       .buy-one{
+            text-align: center;
+            display: flex;
+            flex-direction: column;
+            text-align: center;
+            margin-right: 40rem;
+        
+            div{
+               max-width: max-content;
+                text-align: center;
+            }
+       }
+
+       .buy-two{
+             text-align: center;
+            display: flex;
+             flex-direction: column;
+             max-width: 8rem;
+            text-align: center;
+            margin-top: 6rem;
+            // margin-left: 10rem;
+          
+            div{
+               max-width: max-content;
+                text-align: center;
+                align-self: center;
+                margin-top: 4rem;
+            }
+       }
+       .buy-three{
+        text-align: center;
+        display: flex;
+         flex-direction: column;
+         max-width: max-content;
+        text-align: center;
+        margin-top: 6rem;
+      
+      
+          
+            div{
+                max-width: max-content;
+                text-align: center;
+                align-self: center;
+                margin-top: 4rem;
+            }
+       }
+       .buy-four{
+        text-align: center;
+        display: flex;
+         flex-direction: column;
+         max-width: max-content;
+        text-align: center;
+        margin-top: 6rem;
+        margin-left: -10rem; 
+      
+          
+            div{
+                max-width: max-content;
+                text-align: center;
+                align-self: center;
+                margin-top: 4rem;;
+            }
+       }
+       .buy-five{
+        text-align: center;
+        display: flex;
+         flex-direction: column;
+         max-width: max-content;
+        text-align: center;
+        margin-top: 6rem;
+      
+          
+            div{
+                max-width: max-content;
+                text-align: center;
+                align-self: center;
+                margin-top: 4rem;;
+            }
+       }
+       .buy-six{
+        text-align: center;
+        display: flex;
+         flex-direction: column;
+         max-width: max-content;
+        text-align: center;
+        margin-top: 6rem;
+        margin-left: -10rem; 
+      
+          
+            div{
+                max-width: max-content;
+                text-align: center;
+                align-self: center;
+                margin-top: 4rem;;
+            }
+       }
+       .buy-seven{
+        text-align: center;
+        display: flex;
+         flex-direction: column;
+         max-width: max-content;
+        text-align: center;
+        margin-top: 6rem;
+      
+          
+            div{
+                max-width: max-content;
+                text-align: center;
+                align-self: center;
+                margin-top: 4rem;;
+            }
+       }
+
+
+       .buy-eight{
+        text-align: center;
+        display: flex;
+         flex-direction: column;
+         max-width: max-content;
+        text-align: center;
+        margin-top: 6rem;
+        margin-left: -10rem; 
+      
+          
+            div{
+                max-width: max-content;
+                text-align: center;
+                align-self: center;
+                margin-top: 4rem;;
+            }
+       }
+       .buy-nine{
+        text-align: center;
+        display: flex;
+         flex-direction: column;
+         max-width: max-content;
+        text-align: center;
+        margin-top: 6rem;
+      
+          
+            div{
+                max-width: max-content;
+                text-align: center;
+                align-self: center;
+                margin-top: 4rem;;
+            }
+       }
+                         
+    }
+
+    .card-sobre{
+        max-width: 100rem;
+        .sobre{
+           h1{
+            font-size: 3rem !important;
+           }
+           p{
+            font-size: 2rem;
+           }
+           button{
+            font-size: 2rem !important;
+            max-width: 20rem;
+           }
+
+        }
+        .fot-sobre{
+           img{
+            max-width: 20rem !important;
+            } 
+
+            .img1{
+                bottom: -20rem;
+            }
+
+            .img2{
+                bottom: 6rem;
+                right: -7rem;
+                max-width: 30rem !important;
+            }
+            
+        }
+    }
+
+    .destaque-h1{
+   
+        max-width: max-content;
+        margin-bottom: 5rem;
+    }
+
+    .card-destaque{
+        display: flex;
+        flex-direction: column;
+        gap: 5rem;
+    }
+
+    // 
+
+    .new{
+        max-width: 100rem;
+    }
+
+    .nosso-h1{
+       max-width: max-content;
+    }
+    .artigos{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    
+    }
+
+    .card-artigo{
+        display: inline-block !important;
+      
+
+        .card-atigo1{
+             margin-top: 5rem;
+        }
+     
+        .card-artigo2{
+             margin-top: 5rem;
+          
+        }
+     
+    }
+
+    .card-pg{
+        margin-bottom: 5rem;
+        .card-child{
+      
+            h4{
+               font-size: 2rem !important;
+            }
+        }
+    }
+
+    .card-footer{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin: 0 auto;
+
+        .card-footer1{
+            display: flex;
+            margin: auto;
+           
+        }
+        .card-footer2{
+            margin: auto;
+          
+         
+        }
+
+        .card-footer3{
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+    
+            margin: 0 3rem 0 3rem;
+
+            .ul-footer{
+                margin-top: 8rem;
+            }
+
+            .anuncio{
+                margin-top: 30rem;
+            }
+        }
+    }
+}
+
+
+@media(max-width:1008px){
+    .card{
+
+        h1{
+            font-size: 5rem !important;
+         
+            max-width: 40rem;
+            font-style: normal;
+        }
+        img{
+            max-width: 40rem !important;
+        }
+    }
+
+    .tecs{
+        img{
+            max-width: 20rem !important;
+           
+        }
+    }
+    .card-sobre{
+        max-width: 80rem;
+
+        .sobre{
+         
+            max-width: 40rem;
+            h1{
+                font-size: 3rem !important;
+            }
+            p{
+                font-size: 1.4rem;
+             
+                max-width: 30rem
+            }
+            button{
+                max-width: 20rem;
+            }
+        }
+    }
+    .card-pg{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        .card-child{
+            display: flex;
+            flex-direction: row;
+            align-items: center ;
+            gap: 10rem;
+           
+        }
+        #card-child2{
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            margin-left: 7rem;
+        }
+        #card-child3{
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            margin-left: 3rem;
+        }
+    }
+}
+
+@media(max-width:860px){
+    .card{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        h1{
+            font-size: 4rem !important;
+            
+            height: 23rem;
+            text-align: center;
+            max-width: 63rem;
+
+        }
+
+        img{
+            display: none;
+        }
+    }
+    .category{
+        display: flex;
+        flex-direction: column;
+
+        justify-content: center;
+        align-items: center;
+        gap: 6rem;
+
+        .card-one{
+            width: 80rem !important;
+            margin: auto;
+          
+        }
+        .card-two{
+            width: 80rem !important;
+            margin: auto;
+        }
+        .card-three{
+            width: 80rem !important;
+            margin: auto;
+          
+        }
+        .card-four{
+            width: 80rem !important;
+            margin: auto;
+          
+        }
+    }
+
+    .btn{
+        max-width: 55rem;
+    }
+
+    .tecs{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .buy-one{
+        margin: auto !important;
+        h3{
+            max-width: 9rem;
+         }
+    }
+
+    .buy-three{
+        margin: auto !important;
+        h3{
+            max-width: 9rem;
+         }
+    }
+
+    .buy-four{
+        margin: auto !important;
+        margin-top: 5rem !important;
+        h3{
+            max-width: 9rem;
+         }
+    }
+
+    .buy-six{
+        margin: auto !important;
+        margin-top: 5rem !important;
+        h3{
+            max-width: 9rem;
+         }
+    }
+    .buy-seven{
+        margin: auto !important;
+        margin-top: 5rem !important;
+        h3{
+            max-width: 9rem;
+         }
+    }
+
+    .buy-eight{
+        margin: auto !important;
+        margin-top: 5rem !important;
+        h3{
+            max-width: 9rem;
+         }
+    }
+
+    .buy-nine{
+        margin: auto !important;
+        margin-top: 5rem !important;
+        h3{
+           max-width: 9rem;
+        }
+    }
+
+    .card-sobre{
+        max-width: 50rem;
+        height: 50rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+      
+        .fot-sobre{
+            
+            display: none;
+        }
+    }
+    .new{
+       
+        max-width: 50rem;
+        height: 60rem !important;
+        h1{
+            font-size: 3rem !important;
+            max-width: 42rem;
+        }
+        input{
+            max-width: 20rem;
+        }
+    }
+
+    
+}
+
+@media(max-width:552px){
+    .header{
+        .menu{
+            margin-left: 10rem;
+        }
+        .logo{
+            margin-left: -4rem !important;
+        }
+    }
+    .card{
+        h1{
+            max-width: 60rem;
+     
+            
+        }
+        .btn-one{
+            margin-top: 4rem;
+            
+      }
+        .btn-two{
+            margin-top: 2rem;
+      }
+    }
+
+    .card{
+        h1{
+            font-size: 3.2rem !important;
+            margin-bottom: 3rem;
+            
+        }
+        P{
+            margin-top: 6rem;
+        }
+
+        .btn-one{
+            margin-top: 7rem;
+        }
+    }
+
+    .category{
+        .card-one{
+            max-width: 25rem !important;
+            img{
+                max-width: 20rem !important;
+                margin: auto;
+            }
+
+        }
+        .card-two{
+            max-width: 25rem !important;
+            img{
+                max-width: 20rem !important;
+                margin: auto;
+            }
+
+        }
+        .card-three{
+            max-width: 25rem !important;
+            img{
+                max-width: 20rem !important;
+                margin: auto;
+            }
+
+        }
+        .card-four{
+            max-width: 25rem !important;
+            img{
+                max-width: 20rem !important;
+                margin: auto;
+            }
+
+
+        }
+    }
+
+    .btn{
+       max-width: 0.2rem !important;
+       display: none;
+  
+       
+     
+    }
+    .destaque-h1{
+        font-size: 3rem;
+    }
+
+    .new{
+    
+        h1{
+            font-size: 2rem !important;
+        
+            max-width: 20rem;
+        }
+        p{
+            font-size: 1rem !important;
+        }
+    }
+
+    .nosso-h1{
+        font-size: 2rem !important;
+        max-width:max-content;
+        margin: auto;
+  
+        
+    }
+    .artigos{
+        max-width: 40rem !important;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        img{
+            max-width: 20rem !important;
+          
+         
+        }
+        h3{
+            font-size: 2rem !important;
+            margin: 0 3rem 0 3rem;
+        }
+        p{
+            font-size: 1rem !important;
+            margin: 0 3rem 0 3rem;
+        }
+        button{
+            max-width: 10rem !important;
+            margin: 0 3rem 0 3rem;
+        }
+
+        .card-artigo2{
+            img{
+                margin: auto;
+            }
+        }
+    }
+
+    .card-sobre{
+        .sobre{
+            h1{
+                font-size: 2rem !important;
+            }
+            
+        }
+        button{
+            max-width: 15rem !important;
+        }
+    }
+
+    .card-pg{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        #card-child1{
+            margin: 0 0rem 0 2rem;
+            max-width: max-content;
+        }
+        #card-child2{
+            margin: 0 0rem 0 3rem;
+            max-width: max-content;
+        }
+        #card-child3{
+            margin: 0 0rem 0 2rem;
+            max-width: max-content;
+        }
+    }
+
+    .card-footer{
+        
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin: auto;
+
+        .card-footer1{
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                margin-bottom: 10rem;
+
+                .anuncio{
+                   
+                    p{
+                        font-size: 1.5rem !important;
+                        text-align: center;
+                      
+                    }
+                }
+                .card-tel-footer{
+                    h2{
+                        font-size: 1.9rem;
+                    }
+                    p{
+                        font-size: 1.9rem !important;
+                       
+                    }
+                   
+                }
+
+                .email-footer{
+                    font-size: 1.9rem !important;
+                    &::before{
+                        content: '';
+                        display: none;
+                    }
+                }
+                .meuEmail{
+                    font-size: 1.9rem !important;
+                }
+
+                .tel{
+                    &::before{
+                        content: '';
+                        display: none;
+                    }
+                }
+        }
+
+
+        .card-contato-footer{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        
+          
+        }
+       
+       .card-logo-footer{
+        max-width: min-content;
+        
+       }
+        .card-footer2{
+            margin-top: -10rem;
+           margin-bottom: -10rem;
+           margin-bottom: 5rem;
+     
+           
+            
+            .assets-mochila{
+                display: flex ;
+                flex-direction: column;
+            }
+
+            .anuncio{
+                p{
+                    font-size: 1.5rem !important;
+                    text-align: center;
+                    margin-top: 10rem;
+                  
+                }
+            }
+        }
+
+        .card-footer3{
+            margin: 0 3rem 0 3rem;
+          
+
+            h1{
+                font-size: 3rem !important;
+              
+            }
+            .anuncio{
+                display: none;
+                p{
+                    font-size: 1rem !important;
+                   
+                }
+            }
+        }
+
+        .menu-footer{
+            p{
+                font-size: 1.8rem !important;
+            }
+        }
+
+        .ul-footer{
+            margin: 0 3rem 0 3rem;
+         
+            p{
+                font-size: 1.8rem !important;
+                max-width: max-content;
+            
+            }
+        }
+    }
+}

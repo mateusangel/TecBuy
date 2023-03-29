@@ -453,7 +453,7 @@ body {
   grid-template-rows: 45rem 45rem 45rem;
   grid-template-areas: "one two three" "four five six" "seven eight nine";
   justify-content: center;
-  gap: 5rem;
+  gap: 2rem;
   margin-top: 10rem;
 }
 .tecs .buy-one {
@@ -702,7 +702,8 @@ body {
   background: rgba(209, 206, 206, 0.4039215686);
 }
 .card-sobre .sobre {
-  margin-left: 10rem;
+  margin: auto;
+  /*l*/
 }
 .card-sobre .sobre h1 {
   font-size: 40px;
@@ -711,7 +712,7 @@ body {
   letter-spacing: 0em;
   text-align: left;
   height: 49px;
-  width: 551px;
+  max-width: 551px;
   left: 244px;
   top: 4638px;
 }
@@ -1412,4 +1413,669 @@ body {
 .card-footer .card-footer3 .anuncio {
   margin-top: 1rem;
   width: max-content;
+}
+
+@media (max-width: 1109px) {
+  .header {
+    max-width: 140rem;
+  }
+  .header .search {
+    display: none;
+  }
+  .header .address {
+    display: none;
+  }
+  .header .divisao2 {
+    margin-right: 8rem !important;
+  }
+  .header .divisao2 .user {
+    display: none;
+  }
+  .header .divisao2 .card-shop {
+    display: none;
+  }
+  .header .menu {
+    margin-right: -10rem;
+  }
+  .card div {
+    margin: 0 2rem 0 2rem;
+  }
+  .card div h1 {
+    font-size: 6rem;
+  }
+  .card div p {
+    font-size: 2rem;
+  }
+  .card .btn-one {
+    max-width: 15rem;
+  }
+  .card .btn-two {
+    max-width: 15rem;
+  }
+  img {
+    max-width: 50rem !important;
+  }
+  .category .card-one {
+    max-width: 40rem;
+  }
+  .category .card-one img {
+    max-width: 25rem !important;
+  }
+  .category .card-two {
+    max-width: 40rem;
+  }
+  .category .card-two img {
+    max-width: 25rem !important;
+  }
+  .category .card-three {
+    max-width: 40rem;
+  }
+  .category .card-three img {
+    max-width: 25rem !important;
+  }
+  .category .card-th {
+    max-width: 40rem;
+  }
+  .category .card-th img {
+    max-width: 25rem !important;
+  }
+  .category .card-four {
+    max-width: 40rem;
+  }
+  .category .card-four img {
+    max-width: 25rem !important;
+  }
+  .tecs {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    grid-template-areas: "a1 a2";
+    justify-content: center;
+    align-items: center;
+  }
+  .tecs .buy-one {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-right: 40rem;
+  }
+  .tecs .buy-one div {
+    max-width: max-content;
+    text-align: center;
+  }
+  .tecs .buy-two {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    max-width: 8rem;
+    text-align: center;
+    margin-top: 6rem;
+  }
+  .tecs .buy-two div {
+    max-width: max-content;
+    text-align: center;
+    align-self: center;
+    margin-top: 4rem;
+  }
+  .tecs .buy-three {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    max-width: max-content;
+    text-align: center;
+    margin-top: 6rem;
+  }
+  .tecs .buy-three div {
+    max-width: max-content;
+    text-align: center;
+    align-self: center;
+    margin-top: 4rem;
+  }
+  .tecs .buy-four {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    max-width: max-content;
+    text-align: center;
+    margin-top: 6rem;
+    margin-left: -10rem;
+  }
+  .tecs .buy-four div {
+    max-width: max-content;
+    text-align: center;
+    align-self: center;
+    margin-top: 4rem;
+  }
+  .tecs .buy-five {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    max-width: max-content;
+    text-align: center;
+    margin-top: 6rem;
+  }
+  .tecs .buy-five div {
+    max-width: max-content;
+    text-align: center;
+    align-self: center;
+    margin-top: 4rem;
+  }
+  .tecs .buy-six {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    max-width: max-content;
+    text-align: center;
+    margin-top: 6rem;
+    margin-left: -10rem;
+  }
+  .tecs .buy-six div {
+    max-width: max-content;
+    text-align: center;
+    align-self: center;
+    margin-top: 4rem;
+  }
+  .tecs .buy-seven {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    max-width: max-content;
+    text-align: center;
+    margin-top: 6rem;
+  }
+  .tecs .buy-seven div {
+    max-width: max-content;
+    text-align: center;
+    align-self: center;
+    margin-top: 4rem;
+  }
+  .tecs .buy-eight {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    max-width: max-content;
+    text-align: center;
+    margin-top: 6rem;
+    margin-left: -10rem;
+  }
+  .tecs .buy-eight div {
+    max-width: max-content;
+    text-align: center;
+    align-self: center;
+    margin-top: 4rem;
+  }
+  .tecs .buy-nine {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    max-width: max-content;
+    text-align: center;
+    margin-top: 6rem;
+  }
+  .tecs .buy-nine div {
+    max-width: max-content;
+    text-align: center;
+    align-self: center;
+    margin-top: 4rem;
+  }
+  .card-sobre {
+    max-width: 100rem;
+  }
+  .card-sobre .sobre h1 {
+    font-size: 3rem !important;
+  }
+  .card-sobre .sobre p {
+    font-size: 2rem;
+  }
+  .card-sobre .sobre button {
+    font-size: 2rem !important;
+    max-width: 20rem;
+  }
+  .card-sobre .fot-sobre img {
+    max-width: 20rem !important;
+  }
+  .card-sobre .fot-sobre .img1 {
+    bottom: -20rem;
+  }
+  .card-sobre .fot-sobre .img2 {
+    bottom: 6rem;
+    right: -7rem;
+    max-width: 30rem !important;
+  }
+  .destaque-h1 {
+    max-width: max-content;
+    margin-bottom: 5rem;
+  }
+  .card-destaque {
+    display: flex;
+    flex-direction: column;
+    gap: 5rem;
+  }
+  .new {
+    max-width: 100rem;
+  }
+  .nosso-h1 {
+    max-width: max-content;
+  }
+  .artigos {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .card-artigo {
+    display: inline-block !important;
+  }
+  .card-artigo .card-atigo1 {
+    margin-top: 5rem;
+  }
+  .card-artigo .card-artigo2 {
+    margin-top: 5rem;
+  }
+  .card-pg {
+    margin-bottom: 5rem;
+  }
+  .card-pg .card-child h4 {
+    font-size: 2rem !important;
+  }
+  .card-footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0 auto;
+  }
+  .card-footer .card-footer1 {
+    display: flex;
+    margin: auto;
+  }
+  .card-footer .card-footer2 {
+    margin: auto;
+  }
+  .card-footer .card-footer3 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 0 3rem 0 3rem;
+  }
+  .card-footer .card-footer3 .ul-footer {
+    margin-top: 8rem;
+  }
+  .card-footer .card-footer3 .anuncio {
+    margin-top: 30rem;
+  }
+}
+@media (max-width: 1008px) {
+  .card h1 {
+    font-size: 5rem !important;
+    max-width: 40rem;
+    font-style: normal;
+  }
+  .card img {
+    max-width: 40rem !important;
+  }
+  .tecs img {
+    max-width: 20rem !important;
+  }
+  .card-sobre {
+    max-width: 80rem;
+  }
+  .card-sobre .sobre {
+    max-width: 40rem;
+  }
+  .card-sobre .sobre h1 {
+    font-size: 3rem !important;
+  }
+  .card-sobre .sobre p {
+    font-size: 1.4rem;
+    max-width: 30rem;
+  }
+  .card-sobre .sobre button {
+    max-width: 20rem;
+  }
+  .card-pg {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .card-pg .card-child {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10rem;
+  }
+  .card-pg #card-child2 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-left: 7rem;
+  }
+  .card-pg #card-child3 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-left: 3rem;
+  }
+}
+@media (max-width: 860px) {
+  .card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .card h1 {
+    font-size: 4rem !important;
+    height: 23rem;
+    text-align: center;
+    max-width: 63rem;
+  }
+  .card img {
+    display: none;
+  }
+  .category {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 6rem;
+  }
+  .category .card-one {
+    width: 80rem !important;
+    margin: auto;
+  }
+  .category .card-two {
+    width: 80rem !important;
+    margin: auto;
+  }
+  .category .card-three {
+    width: 80rem !important;
+    margin: auto;
+  }
+  .category .card-four {
+    width: 80rem !important;
+    margin: auto;
+  }
+  .btn {
+    max-width: 55rem;
+  }
+  .tecs {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .buy-one {
+    margin: auto !important;
+  }
+  .buy-one h3 {
+    max-width: 9rem;
+  }
+  .buy-three {
+    margin: auto !important;
+  }
+  .buy-three h3 {
+    max-width: 9rem;
+  }
+  .buy-four {
+    margin: auto !important;
+    margin-top: 5rem !important;
+  }
+  .buy-four h3 {
+    max-width: 9rem;
+  }
+  .buy-six {
+    margin: auto !important;
+    margin-top: 5rem !important;
+  }
+  .buy-six h3 {
+    max-width: 9rem;
+  }
+  .buy-seven {
+    margin: auto !important;
+    margin-top: 5rem !important;
+  }
+  .buy-seven h3 {
+    max-width: 9rem;
+  }
+  .buy-eight {
+    margin: auto !important;
+    margin-top: 5rem !important;
+  }
+  .buy-eight h3 {
+    max-width: 9rem;
+  }
+  .buy-nine {
+    margin: auto !important;
+    margin-top: 5rem !important;
+  }
+  .buy-nine h3 {
+    max-width: 9rem;
+  }
+  .card-sobre {
+    max-width: 50rem;
+    height: 50rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .card-sobre .fot-sobre {
+    display: none;
+  }
+  .new {
+    max-width: 50rem;
+    height: 60rem !important;
+  }
+  .new h1 {
+    font-size: 3rem !important;
+    max-width: 42rem;
+  }
+  .new input {
+    max-width: 20rem;
+  }
+}
+@media (max-width: 552px) {
+  .header .menu {
+    margin-left: 10rem;
+  }
+  .header .logo {
+    margin-left: -4rem !important;
+  }
+  .card h1 {
+    max-width: 60rem;
+  }
+  .card .btn-one {
+    margin-top: 4rem;
+  }
+  .card .btn-two {
+    margin-top: 2rem;
+  }
+  .card h1 {
+    font-size: 3.2rem !important;
+    margin-bottom: 3rem;
+  }
+  .card P {
+    margin-top: 6rem;
+  }
+  .card .btn-one {
+    margin-top: 7rem;
+  }
+  .category .card-one {
+    max-width: 25rem !important;
+  }
+  .category .card-one img {
+    max-width: 20rem !important;
+    margin: auto;
+  }
+  .category .card-two {
+    max-width: 25rem !important;
+  }
+  .category .card-two img {
+    max-width: 20rem !important;
+    margin: auto;
+  }
+  .category .card-three {
+    max-width: 25rem !important;
+  }
+  .category .card-three img {
+    max-width: 20rem !important;
+    margin: auto;
+  }
+  .category .card-four {
+    max-width: 25rem !important;
+  }
+  .category .card-four img {
+    max-width: 20rem !important;
+    margin: auto;
+  }
+  .btn {
+    max-width: 0.2rem !important;
+    display: none;
+  }
+  .destaque-h1 {
+    font-size: 3rem;
+  }
+  .new h1 {
+    font-size: 2rem !important;
+    max-width: 20rem;
+  }
+  .new p {
+    font-size: 1rem !important;
+  }
+  .nosso-h1 {
+    font-size: 2rem !important;
+    max-width: max-content;
+    margin: auto;
+  }
+  .artigos {
+    max-width: 40rem !important;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .artigos img {
+    max-width: 20rem !important;
+  }
+  .artigos h3 {
+    font-size: 2rem !important;
+    margin: 0 3rem 0 3rem;
+  }
+  .artigos p {
+    font-size: 1rem !important;
+    margin: 0 3rem 0 3rem;
+  }
+  .artigos button {
+    max-width: 10rem !important;
+    margin: 0 3rem 0 3rem;
+  }
+  .artigos .card-artigo2 img {
+    margin: auto;
+  }
+  .card-sobre .sobre h1 {
+    font-size: 2rem !important;
+  }
+  .card-sobre button {
+    max-width: 15rem !important;
+  }
+  .card-pg {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .card-pg #card-child1 {
+    margin: 0 0rem 0 2rem;
+    max-width: max-content;
+  }
+  .card-pg #card-child2 {
+    margin: 0 0rem 0 3rem;
+    max-width: max-content;
+  }
+  .card-pg #card-child3 {
+    margin: 0 0rem 0 2rem;
+    max-width: max-content;
+  }
+  .card-footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+  }
+  .card-footer .card-footer1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10rem;
+  }
+  .card-footer .card-footer1 .anuncio p {
+    font-size: 1.5rem !important;
+    text-align: center;
+  }
+  .card-footer .card-footer1 .card-tel-footer h2 {
+    font-size: 1.9rem;
+  }
+  .card-footer .card-footer1 .card-tel-footer p {
+    font-size: 1.9rem !important;
+  }
+  .card-footer .card-footer1 .email-footer {
+    font-size: 1.9rem !important;
+  }
+  .card-footer .card-footer1 .email-footer::before {
+    content: "";
+    display: none;
+  }
+  .card-footer .card-footer1 .meuEmail {
+    font-size: 1.9rem !important;
+  }
+  .card-footer .card-footer1 .tel::before {
+    content: "";
+    display: none;
+  }
+  .card-footer .card-contato-footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .card-footer .card-logo-footer {
+    max-width: min-content;
+  }
+  .card-footer .card-footer2 {
+    margin-top: -10rem;
+    margin-bottom: -10rem;
+    margin-bottom: 5rem;
+  }
+  .card-footer .card-footer2 .assets-mochila {
+    display: flex;
+    flex-direction: column;
+  }
+  .card-footer .card-footer2 .anuncio p {
+    font-size: 1.5rem !important;
+    text-align: center;
+    margin-top: 10rem;
+  }
+  .card-footer .card-footer3 {
+    margin: 0 3rem 0 3rem;
+  }
+  .card-footer .card-footer3 h1 {
+    font-size: 3rem !important;
+  }
+  .card-footer .card-footer3 .anuncio {
+    display: none;
+  }
+  .card-footer .card-footer3 .anuncio p {
+    font-size: 1rem !important;
+  }
+  .card-footer .menu-footer p {
+    font-size: 1.8rem !important;
+  }
+  .card-footer .ul-footer {
+    margin: 0 3rem 0 3rem;
+  }
+  .card-footer .ul-footer p {
+    font-size: 1.8rem !important;
+    max-width: max-content;
+  }
 }/*# sourceMappingURL=Sccs.css.map */
