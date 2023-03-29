@@ -279,6 +279,7 @@ body{
         list-style: none;
         gap: 2rem;
         font-size: 4rem;
+       
 
         margin: auto;
     
@@ -306,12 +307,17 @@ body{
         a{
             text-decoration: none;
             color: #000000;
+           margin-right: 5rem;
+            
+           
         }
      
     }
 
     .l1 > a:hover{
+       
         color: white;
+        
     }
     .l2 > a:hover{
         color: white;

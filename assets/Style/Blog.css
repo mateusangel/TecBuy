@@ -127,6 +127,7 @@ body {
 .header .lista a {
   text-decoration: none;
   color: #000000;
+  margin-right: 5rem;
 }
 .header .l1 > a:hover {
   color: white;
