@@ -153,6 +153,7 @@ body {
   visibility: visible;
   transform: translatey(90px);
   transition: 1s;
+  z-index: 999999;
 }
 .header .menu {
   display: flex;
@@ -160,7 +161,7 @@ body {
   gap: 6px;
   margin-top: -1px;
   cursor: pointer;
-  z-index: 9999;
+  z-index: 9999999;
 }
 .header .menu .menu1 {
   width: 3rem;

@@ -274,6 +274,9 @@ body{
     visibility: visible;
     transform: translatey(90px) ;
     transition: 1s;
+
+  
+    z-index: 999999;
   
   
  
@@ -289,7 +292,8 @@ body{
         margin-top: -1px;
         cursor: pointer;
 
-        z-index: 9999;
+        z-index: 9999999;
+  
        
         
         

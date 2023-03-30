@@ -181,7 +181,7 @@ body{
         gap: 6px;
         margin-top: -1px;
         cursor: pointer;
-        z-index: 999;
+        z-index: 9999999;
       
 
         .menu1{
@@ -292,7 +292,7 @@ body{
         left:3%;
        overflow: hidden;
 
-         position: fixed;
+        position:fixed;
 
         font-weight: 500;
         font-family: 'Montserrat';
@@ -3406,6 +3406,10 @@ body{
 
 .active4{
     visibility: visible;
+   
+  z-index: 999999;
+  
+
   transform: translatey(90px) ;
   transition: 1s;
 
